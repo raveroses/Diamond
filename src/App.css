@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.login {
+  text-align: center;
+  border: 1px solid red;
+  width: 36%;
+  margin: auto;
+  margin-top: 65px;
+  padding: 30px 30px;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.logo h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+
+.diamond {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+
+.login-here {
+  padding-top: 20px;
+}
+.login-here h5 {
+  color: red;
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-top: 45px;
+}
+
+.form-flex input {
+  padding: 7px 60px;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  margin-left: 6px;
+  color: white;
+}
+
+form .form-flex input:focus {
+  border: none;
+  outline: none;
+}
+.form-flex input::placeholder {
+  color: gray;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 400;
+}
+.form-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  border: 1px solid white;
+  padding: 3px 45px;
+  border-radius: 5px;
+}
+
+.key input {
+  padding: 7px 60px;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  margin-left: 6px;
+  color: white;
+}
+
+form .key input:focus {
+  border: none;
+  outline: none;
+}
+.key input::placeholder {
+  color: gray;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 400;
+}
+.key {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  border: 1px solid white;
+  padding: 3px 45px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.submit-login {
+  margin-top: 20px;
+}
+.submit-login button {
+  background-color: rgb(239, 72, 72);
+  color: white;
+  padding: 8px 185px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-login button:hover {
+  background-color: red;
+}
+
+.last-inside-form {
+  margin-top: 40px;
+}
+.last-inside-form span {
+  color: white;
+  font-size: 13px;
+}
+.last-inside-form span a {
+  text-decoration: none;
+}
+.last-inside-form span a:hover {
+  text-decoration: underline;
+}
