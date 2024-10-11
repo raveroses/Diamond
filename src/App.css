@@ -6,8 +6,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+body,
+html {
   font-family: "Roboto", sans-serif;
+  background-color: black;
+  height: 100%;
 }
 
 .login {
@@ -142,4 +145,154 @@ form .key input:focus {
 }
 .last-inside-form span a:hover {
   text-decoration: underline;
+}
+
+.homes {
+  padding: 20px 50px;
+}
+
+.logo-again h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+
+.logo-again .diamonds {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  margin-left: 30px;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.hamburger {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.search-conatiner {
+  padding: 6px;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  border-radius: 25px;
+  margin-left: 50px;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.search-conatiner input {
+  padding: 8px 135px 5px 5px;
+  margin-right: 100px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.search-conatiner input:focus {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.search {
+  color: white;
+  font-size: 17px;
+  margin-top: 5px;
+  margin-right: 25px;
+}
+.mic {
+  display: flex;
+  width: 40%;
+}
+.microphone {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.bell {
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.profile-flex {
+  display: flex;
+  margin-left: 80px;
+}
+
+.cirlcle {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.tooltip {
+  color: black;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  background-color: gray;
+  padding: 7px 10px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 13px;
+}
+.tooltips {
+  color: black;
+  position: absolute;
+  top: 70px;
+  right: 210px;
+  background-color: gray;
+  padding: 7px 10px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 13px;
+}
+
+.tooltipss {
+  color: black;
+  position: absolute;
+  top: 70px;
+  right: 80px;
+  background-color: gray;
+  padding: 7px 10px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 13px;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  overflow-y: scroll;
+  width: 250px;
+  background-color: rgb(31, 27, 27);
+  padding-left: 30px;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.flex-icons {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+.p-tag {
+  margin-left: 20px;
+  font-size: 15px;
 }

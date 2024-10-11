@@ -1,7 +1,8 @@
+import Header from "./Header";
 function Home() {
   return (
-    <div>
-      <p>hfhhfhfh</p>
+    <div className="homes">
+      <Header />
     </div>
   );
 }
