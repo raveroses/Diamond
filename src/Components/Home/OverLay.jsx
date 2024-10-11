@@ -1,6 +1,7 @@
 import { IoDiamond } from "react-icons/io5";
 import List from "./List";
 import { useState } from "react";
+
 export default function OverLay({ onClick }) {
   const [hover, setHover] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -39,9 +40,11 @@ export default function OverLay({ onClick }) {
     );
   });
   return (
-    <div className="overlay" onClick={onClick}>
-      <Logoss />
-      <Icons icon={map} />
+    <div className="blurry">
+      <div className="overlay" onClick={onClick}>
+        <Logoss />
+        <Icons icon={map} />
+      </div>
     </div>
   );
 }

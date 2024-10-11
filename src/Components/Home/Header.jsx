@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaSearch } from "react-icons/fa";
 import { FaMicrophone } from "react-icons/fa";
 import { FaBell } from "react-icons/fa6";
-import OverLay from "../OverLay";
+import OverLay from "./OverLay";
 import { useState } from "react";
 
 function Header() {

@@ -282,6 +282,7 @@ form .key input:focus {
   height: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
+  z-index: 1000;
 }
 
 .flex-icons {
@@ -295,4 +296,88 @@ form .key input:focus {
 .p-tag {
   margin-left: 20px;
   font-size: 15px;
+}
+
+.blurry {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.Buttons span {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+.Buttons p {
+  color: white;
+  font-size: 11px;
+}
+
+.video-grid {
+  border: 1px solid yellow;
+  border-radius: 8px;
+}
+.video-grid img {
+  width: 330px;
+  height: 250px;
+}
+.bodyFlex {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.sub-content {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 10px 20px;
+}
+.sub-flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.three-dot {
+  margin-right: 10px;
+}
+
+.three {
+  font-size: 20px;
+  color: white;
+}
+
+.content {
+  margin-left: 15px;
+}
+
+.content h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.content p {
+  font-size: 13px;
+  color: gray;
+  padding-top: 5px;
+}
+
+.content span {
+  color: gray;
+  font-size: 13px;
+  padding-top: 15px;
 }
