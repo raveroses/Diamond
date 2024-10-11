@@ -7,7 +7,7 @@ import OverLay from "./OverLay";
 import { useState } from "react";
 
 function Header() {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const HandlingShowing = () => {
     setShow((id) => !id);

@@ -2,7 +2,13 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 
 function Video() {
   return (
-    <div>
+    <div className="the-real-grid">
+      <EachVideo />
+      <EachVideo />
+      <EachVideo />
+      <EachVideo />
+      <EachVideo />
+      <EachVideo />
       <EachVideo />
     </div>
   );

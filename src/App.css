@@ -326,11 +326,13 @@ form .key input:focus {
 }
 
 .video-grid {
-  border: 1px solid yellow;
-  border-radius: 8px;
+  /* border: 1px solid yellow;
+  border-radius: 8px; */
+  padding: 30px 20px;
 }
 .video-grid img {
   width: 330px;
+  border-radius: 10px;
   height: 250px;
 }
 .bodyFlex {
@@ -380,4 +382,9 @@ form .key input:focus {
   color: gray;
   font-size: 13px;
   padding-top: 15px;
+}
+
+.the-real-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
